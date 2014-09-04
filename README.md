@@ -155,3 +155,8 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart`
 if you're having issues.
+
+
+## 一旦このボットの役割
+基本Twitter時に反応させる予定。ちょっとまだ完成してない。
+あとは、これをあてはめたいので、起動確認とTwitterとの連携のみ成功している
