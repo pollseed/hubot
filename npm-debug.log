@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'tig' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'tig', null ]
+7 verbose cache add name=undefined spec="tig" args=["tig",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'tig',
+8 verbose parsed url   path: 'tig',
+8 verbose parsed url   href: 'tig' }
+9 silly lockFile ab58dc7e-tig tig
+10 verbose lock tig C:\Users\k00013\AppData\Roaming\npm-cache\ab58dc7e-tig.lock
+11 silly lockFile ab58dc7e-tig tig
+12 silly lockFile ab58dc7e-tig tig
+13 verbose addNamed [ 'tig', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile a1a15a28-tig tig@
+16 verbose lock tig@ C:\Users\k00013\AppData\Roaming\npm-cache\a1a15a28-tig.lock
+17 silly addNameRange { name: 'tig', range: '*', hasData: false }
+18 verbose url raw tig
+19 verbose url resolving [ 'https://registry.npmjs.org/', './tig' ]
+20 verbose url resolved https://registry.npmjs.org/tig
+21 info trying registry request attempt 1 at 16:41:50
+22 http GET https://registry.npmjs.org/tig
+23 http 404 https://registry.npmjs.org/tig
+24 silly registry.get cb [ 404,
+24 silly registry.get   { date: 'Thu, 04 Sep 2014 07:41:50 GMT',
+24 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=0',
+24 silly registry.get     'content-length': '52',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '0',
+24 silly registry.get     'x-served-by': 'cache-ty66-TYO',
+24 silly registry.get     'x-cache': 'MISS',
+24 silly registry.get     'x-cache-hits': '0',
+24 silly registry.get     'x-timer': 'S1409816510.292227,VS0,VE116',
+24 silly registry.get     'keep-alive': 'timeout=10, max=50',
+24 silly registry.get     connection: 'Keep-Alive' } ]
+25 silly lockFile a1a15a28-tig tig@
+26 silly lockFile a1a15a28-tig tig@
+27 error 404 'tig' is not in the npm registry.
+27 error 404 You should bug the author to publish it
+27 error 404
+27 error 404 Note that you can also install from a
+27 error 404 tarball, folder, or http url, or git url.
+28 error System Windows_NT 6.1.7601
+29 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "tig"
+30 error cwd C:\develop\myhubot
+31 error node -v v0.10.21
+32 error npm -v 1.3.11
+33 error code E404
+34 verbose exit [ 1, true ]
