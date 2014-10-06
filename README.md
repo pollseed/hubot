@@ -1,4 +1,5 @@
 # Hubot
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/pollseed/hubot?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This is a version of GitHub's Campfire bot, hubot. He's pretty cool.
 
